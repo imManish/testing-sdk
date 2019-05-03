@@ -1,0 +1,28 @@
+{
+    "name": "imManish/testing-sdk",
+    "description": "Sample Testing",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "",
+    "keywords": ["skype"],
+    "authors": [{
+        "name": "manish",
+        "email": "support@manish.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Testing\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Testing\\tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=5.5.0",
+        "guzzlehttp/guzzle": ">=4.0,<7.0"
+    },
+    "require-dev": {},
+    "minimum-stability": "dev"
+}
