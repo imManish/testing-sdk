@@ -13,6 +13,8 @@
     
     "psy/psysh": "@stable"
   },
+  "minimum-stability": "dev",
+
   "autoload": {
     "psr-0": {
      
